@@ -41,5 +41,5 @@ if ($aff) {
 
 // Always redirect to the main website
 header("HTTP/1.1 301 Moved Permanently");
-header("Location: https://www.fyphost.com/", true, 301);
+header("Location: https://www.yourdomain.com/", true, 301);
 exit;
